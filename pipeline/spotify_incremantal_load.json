@@ -143,7 +143,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"expression": {
-						"value": "@greater(activity('Script1').output.dataRead,0)",
+						"value": "@greater(activity('Copy data1').output.dataRead,0)",
 						"type": "Expression"
 					},
 					"ifFalseActivities": [
@@ -166,10 +166,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": "user_1",
-										"file": {
-											"value": "@concat(pipeline().parameters.table,'_',variables('current_date'))",
-											"type": "Expression"
-										}
+										"file": "@concat(pipeline().parameters.table,'_',variables('current_date'))"
 									}
 								},
 								"enableLogging": false,
