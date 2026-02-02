@@ -1,0 +1,9 @@
+{
+	"name": "spotifyadf27",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b3b6df08-5d47-4c8f-99d0-6027db43d43d",
+		"tenantId": "fc3b74f2-d126-40df-9514-892066e7da3b"
+	}
+}
