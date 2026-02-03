@@ -1,0 +1,9 @@
+{
+	"name": "spotifyazure1817",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b121d902-a451-4972-9445-8746dd0562fd",
+		"tenantId": "fc3b74f2-d126-40df-9514-892066e7da3b"
+	}
+}
